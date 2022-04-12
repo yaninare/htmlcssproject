@@ -38,7 +38,7 @@ a{
 
 /*transitions*/
 
-h1 span{
+.thisisme{
     transition: 2s linear;
 }
 
