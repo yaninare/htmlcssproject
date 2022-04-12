@@ -39,7 +39,7 @@ a{
 /*transitions*/
 
 .imageindex{
-    transition: all 2s;    
+    transition: all 4s;    
 }
 
 .imageindex:hover{
