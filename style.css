@@ -1,0 +1,145 @@
+/*GOOGLE FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+*{
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*color de los enlaces*/
+
+a{
+    color: #eceaeb;
+    text-decoration: none;
+}
+
+/*header*/
+.nav-container{
+    background-color:#7f624e;
+    color: #312c26;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+}
+
+.nav{
+    background-color:#7f624e;
+    width: 100%;
+    color: #312c26;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*transitions*/
+
+h1 span{
+    transition: 2s linear;
+}
+
+
+
+
+/*footer*/
+.footer{
+    background-color:#b69c8b;
+    color: #312c26;
+    padding: 20px 0px;
+    display: flex;
+    padding-left: 20%;
+    align-items: center;
+}
+
+.socialmedia{
+margin-left: 50%;
+}
+
+
+/*ESTILOS DEL INDEX*/
+
+.sectionindex{
+    background-color: #c4b596;
+    padding: 10% 30% 5% 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.sectionindex p{
+    margin: 20px;
+}
+
+.imageindex{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sectionindex2{
+    background-color: #949696;
+    padding: 10% 30% 5% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ESTILOS DE PESTAÑA SCRUM*/
+.scrum1{
+    padding: 10% 30% 5% 30%;
+    background-color: #c4b596;
+}
+
+.scrum2{
+    background-color: #949696;
+    padding: 10% 30% 5% 30%;
+}
+
+.scrum3{
+    background-color: #eceaeb;
+    padding: 10% 30% 5% 30%;
+}
+
+/*ESTILOS DE PESTAÑA WEB DEVELOPMENT*/
+
+.wholeweb{
+    display:flex;
+    background-color: #c4b596;
+}
+
+.webdevarticle{
+    background-color: #c4b596;
+    padding: 10% 10% 5% 10%;
+}
+
+.imagewebdev{
+    background-color: #c4b596;
+    padding: 10% 0% 17% 10%;
+
+}
+
+/*ESTILO DE PESTAÑA ENEAGRAMA*/
+.enneagramcontainer{
+    background-color: #c4b596;
+    padding: 10% 20% 20%;
+
+}
+/*SECCION CONTACTO*/
+.contactpage {
+    padding: 10% 20%  20% ;    
+    background-image: url('../Media/image/contact-1.jpeg')
+}
+
+
+
+/*social networks en SECCION CONTACTO*/
+.socialnetworks{
+    color: #312c26;
+}
+
