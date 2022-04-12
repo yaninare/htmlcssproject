@@ -38,10 +38,21 @@ a{
 
 /*transitions*/
 
-.thisisme{ 
-    transition: 2s linear;
+.imageindex{
+    transition: all 2s;    
 }
 
+.imageindex:hover{
+    transform: scale(4);
+}
+
+.sectionindex2:hover{
+    transform: scale(2);
+}
+
+.sectionindex2{
+    transition: all 2s;
+}
 
 
 
